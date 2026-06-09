@@ -101,7 +101,7 @@ SVD (Singular Value Decomposition) decomposes the user-item matrix into two lowe
 - A **customer matrix** — describing each customer's latent preferences across 50 hidden factors
 - An **item matrix** — describing each product's latent characteristics across the same 50 factors
 
-To predict how much a customer will like an un购bought product, the dot product of their latent vectors is computed. The model was trained using 3-fold cross-validation, achieving an RMSE of 4.39 on held-out data.
+To predict how much a customer will like an unbought product, the dot product of their latent vectors is computed. The model was trained using 3-fold cross-validation, achieving an RMSE of 4.39 on held-out data.
 
 ### 4. Comparison
 
